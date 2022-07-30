@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="226.575" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\M1089200\eclipse-Selenium_Project\ComprehensiveHybridProject\target\test-classes;C:\Users\M1089200\eclipse-Selenium_Project\ComprehensiveHybridProject\target\classes;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\M1089200\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\M1089200\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\M1089200\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\M1089200\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\M1089200\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\M1089200\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\M1089200\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\M1089200\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\M1089200\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\M1089200\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\M1089200\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\M1089200\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\M1089200\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\M1089200\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\M1089200\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\M1089200\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\M1089200\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\M1089200\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\M1089200\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\M1089200\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\M1089200\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\M1089200\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\M1089200\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\M1089200\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\M1089200\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\M1089200\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\M1089200\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\M1089200\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\M1089200\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\M1089200\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\M1089200\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\M1089200\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\M1089200\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\M1089200\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\M1089200\AppData\Local\Temp\surefire13624113458474465228\surefirebooter-20220730144809267_3.jar C:\Users\M1089200\AppData\Local\Temp\surefire13624113458474465228 2022-07-30T14-48-08_487-jvmRun1 surefire-20220730144809267_1tmp surefire_0-20220730144809267_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\M1089200\eclipse-Selenium_Project\ComprehensiveHybridProject\target\test-classes;C:\Users\M1089200\eclipse-Selenium_Project\ComprehensiveHybridProject\target\classes;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\M1089200\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\M1089200\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\M1089200\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\M1089200\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\M1089200\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\M1089200\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\M1089200\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\M1089200\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\M1089200\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\M1089200\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\M1089200\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\M1089200\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\M1089200\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\M1089200\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\M1089200\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\M1089200\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\M1089200\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\M1089200\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\M1089200\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\M1089200\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\M1089200\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\M1089200\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\M1089200\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\M1089200\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\M1089200\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\M1089200\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\M1089200\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\M1089200\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\M1089200\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\M1089200\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\M1089200\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\M1089200\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\M1089200\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\M1089200\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\M1089200"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Users\M1089200\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\M1089200\eclipse-Selenium_Project\ComprehensiveHybridProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\M1089200\AppData\Local\Temp\surefire13624113458474465228\surefirebooter-20220730144809267_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1+10"/>
+    <property name="webdriver.edge.driver" value="./Driver/msedgedriver.exe"/>
+    <property name="user.name" value="M1089200"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-18.0.1+10"/>
+    <property name="localRepository" value="C:\Users\M1089200\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\M1089200\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1"/>
+    <property name="user.dir" value="C:\Users\M1089200\eclipse-Selenium_Project\ComprehensiveHybridProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\M1089200\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/M1089200/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin/server;C:/Users/M1089200/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_18.0.1.v20220515-1614/jre/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\M1089200\AppData\Local\Microsoft\WindowsApps;C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Software\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Users\M1089200\AppData\Roaming\npm;C:\Users\M1089200\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="18.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="createAccount" classname="runner.TestExecution" time="15.766">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:48:14.720 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:48:25.458 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:48:25.458 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:48:28.330 [main] Log4j - Creating New Tide User Account
+[INFO ] 2022-07-30 14:48:33.754 [main] Log4j - Clicked on Register
+[INFO ] 2022-07-30 14:48:33.755 [main] Log4j - Clicked on Signup button
+[INFO ] 2022-07-30 14:48:37.202 [main] Log4j - Enterd User Name
+[INFO ] 2022-07-30 14:48:39.387 [main] Log4j - Enterd Email
+[INFO ] 2022-07-30 14:48:41.637 [main] Log4j - Enterd Password
+[INFO ] 2022-07-30 14:48:41.904 [main] Log4j - Took Screenshot
+[INFO ] 2022-07-30 14:48:44.088 [main] Log4j - Validation Pass
+Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 4775
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:48:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="shopProductPacsTC1" classname="runner.TestExecution" time="7.695">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:48:44.095 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:48:44.095 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:48:44.095 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:48:48.043 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:48:58.492 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:48:58.492 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:49:01.118 [main] Log4j - Hoverd on Shop Products
+[INFO ] 2022-07-30 14:49:01.408 [main] Log4j - Clicked on Pacs Products
+[INFO ] 2022-07-30 14:49:05.317 [main] Log4j - Clicked on Retailers
+[INFO ] 2022-07-30 14:49:05.723 [main] Log4j - Took Screnshot
+Validation Pass
+[INFO ] 2022-07-30 14:49:07.545 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 37901
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:48:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="searchPowder[powder](1)" classname="runner.TestExecution" time="10.882">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:49:08.650 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:49:08.650 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:49:08.650 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:49:12.233 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:49:17.608 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:49:17.609 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:49:21.994 [main] Log4j - Enter Powder in search box
+[INFO ] 2022-07-30 14:49:23.089 [main] Log4j - Click on Products
+[INFO ] 2022-07-30 14:49:27.999 [main] Log4j - Click on Products
+[INFO ] 2022-07-30 14:49:28.257 [main] Log4j - Took Screenshot
+[INFO ] 2022-07-30 14:49:29.981 [main] Log4j - Closed the Tab
+Validation Pass
+[INFO ] 2022-07-30 14:49:31.035 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 37728
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:49:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="liveChat" classname="runner.TestExecution" time="6.025">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:49:31.037 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:49:31.037 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:49:31.037 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:49:34.298 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:49:43.071 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:49:43.072 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:49:45.229 [main] Log4j - Clicked on Live Chat
+[INFO ] 2022-07-30 14:49:47.367 [main] Log4j - Navigated Back
+[INFO ] 2022-07-30 14:49:49.036 [main] Log4j - Took Screenshot
+Then you have come to the right place!
+Validation Pass
+[INFO ] 2022-07-30 14:49:49.075 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 33844
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:49:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Language" classname="runner.TestExecution" time="15.34">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:49:51.093 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:49:51.094 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:49:51.094 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:49:54.252 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:50:03.406 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:50:03.406 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:50:05.368 [main] Log4j - Clicked on country name
+[INFO ] 2022-07-30 14:50:15.510 [main] Log4j - Selected new Region
+[INFO ] 2022-07-30 14:50:16.943 [main] Log4j - Took Screenshot
+Find the right Tide product for you
+Validation Pass
+[INFO ] 2022-07-30 14:50:16.974 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 43371
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:49:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="liquidProducts" classname="runner.TestExecution" time="9.129">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:50:20.642 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:50:20.642 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:50:20.642 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:50:23.916 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:50:29.378 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:50:29.378 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:50:32.139 [main] Log4j - Hoverd on Shop Products
+[INFO ] 2022-07-30 14:50:33.397 [main] Log4j - Clicked on Liquids
+[INFO ] 2022-07-30 14:50:37.748 [main] Log4j - Clicked on Sensitive option
+[INFO ] 2022-07-30 14:50:39.047 [main] Log4j - Took Screenshot
+Shop Tide Liquid Detergents
+Validation Pass
+[INFO ] 2022-07-30 14:50:40.103 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 4835
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:50:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="stainRemoval" classname="runner.TestExecution" time="8.745">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:50:41.115 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:50:41.115 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:50:41.115 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:50:44.049 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:50:52.008 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:50:52.009 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:50:54.262 [main] Log4j - Hoverd on Shop Products
+[INFO ] 2022-07-30 14:50:55.538 [main] Log4j - Clicked on Stain Removal option
+[INFO ] 2022-07-30 14:50:56.801 [main] Log4j - Took Screenshot
+Detergents for Stain Removal
+Validation Pass
+[INFO ] 2022-07-30 14:51:00.857 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 23078
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:50:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tideInSpace" classname="runner.TestExecution" time="5.682">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:51:02.860 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:51:02.861 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:51:02.861 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:51:06.062 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:51:11.669 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:51:11.669 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:51:14.047 [main] Log4j - Hoverd on Our Commitments feature
+[INFO ] 2022-07-30 14:51:15.290 [main] Log4j - Clicked on Tide In Space Option
+[INFO ] 2022-07-30 14:51:16.531 [main] Log4j - Took Screenshot
+TIDE IN SPACE
+Validation Pass
+[INFO ] 2022-07-30 14:51:17.562 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 29500
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:51:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tideLaundry" classname="runner.TestExecution" time="5.376">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:51:19.567 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:51:19.567 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:51:19.567 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:51:22.764 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:51:30.853 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:51:30.853 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:51:32.909 [main] Log4j - Hoverd on How TO Wash CLothes
+[INFO ] 2022-07-30 14:51:34.153 [main] Log4j - Clicked on Laundry option
+[INFO ] 2022-07-30 14:51:36.089 [main] Log4j - Took Screenshot
+How to Do Laundry
+Validation Pass
+[INFO ] 2022-07-30 14:51:37.141 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 19131
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:51:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="tideDeepClean" classname="runner.TestExecution" time="4.765">
+    <system-out><![CDATA[[INFO ] 2022-07-30 14:51:38.144 [main] Log4j - Tide Webpage closing
+[INFO ] 2022-07-30 14:51:38.145 [main] Log4j - Pushing values to the ExtentReports
+[INFO ] 2022-07-30 14:51:38.145 [main] Log4j - Closing Drivers
+[INFO ] 2022-07-30 14:51:41.334 [main] Log4j - Edge Browser Started
+[INFO ] 2022-07-30 14:51:50.081 [main] Log4j - Browser Launched
+[INFO ] 2022-07-30 14:51:50.081 [main] Log4j - Tide URL Fetched
+[INFO ] 2022-07-30 14:51:52.119 [main] Log4j - Hoverd on Shop Products feature
+[INFO ] 2022-07-30 14:51:53.356 [main] Log4j - Clicked on Deep Clean Option
+[INFO ] 2022-07-30 14:51:54.493 [main] Log4j - Selected A-Z alphabetic Filture
+[INFO ] 2022-07-30 14:51:55.713 [main] Log4j - Validation Pass
+Detergent for Deep Clean
+Validation Pass
+[INFO ] 2022-07-30 14:51:56.747 [main] Log4j - Validation Pass
+]]></system-out>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 103.0.1264.71 (1f7a1d165042010b399db54bd56390dd47e15013) on port 47486
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jul 30, 2022 2:51:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
